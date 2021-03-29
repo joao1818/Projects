@@ -1,0 +1,377 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.fix{
+    clear:both;
+}
+
+.main-title{
+    font-family: 'Dancing Script', cursive;
+    font-weight: lighter;
+    color: #d60000;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.container{
+    margin: 0 40px;
+}
+
+/* SEÇÃO DE HEADER */
+
+.logo{
+    font-size: 27px;
+    color: black;
+}
+
+.logo span, .menu-principal li a, .slide-text-container h1, .slide-text-container a{
+color:white;
+}
+
+.logo span{
+    text-transform: capitalize;
+    font-size: 41px;
+    font-family: 'Dancing Script', cursive;
+}
+
+header nav{
+    padding:5px 60px;
+    background-color:#d60000;
+}
+
+header .menu-principal, .menu-principal li{
+    display: inline-block;
+}
+
+header .menu-principal{
+    margin-top:17px;
+    margin-left: 45px;
+    float:right;
+}
+
+.menu-principal li{
+    font-size: 18px;
+    text-transform:uppercase;
+    margin: 0 10px;
+}
+
+.menu-principal li a{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+}
+
+header a{
+    text-decoration:none;
+}
+
+.header-carousel{
+    height:630px;
+    overflow: hidden;
+}
+
+.slide-1{
+    height: 100%;
+}
+
+.slide-text-wrapper{
+    background: url('../img/background.png') no-repeat 0px 0px / 100% 100%;
+    display:inline-block;
+    width: 100%;
+    height:100%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.slide-text-container{
+    padding-top:1%;
+}
+
+.slide-text-container h3{
+    font-family: 'Dancing Script', cursive;
+    font-weight: lighter;
+    color: rgb(235, 232, 232);
+    font-size: 28px;
+}
+
+.slide-text-container h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: normal;
+    line-height: 105px;
+    margin-bottom:31px;
+    width: 30%;
+    font-size: 6.5rem;
+}
+
+.slide-text-container h1 span{
+    color:yellow;
+    font-weight: bolder;
+}
+
+.slide-text-container a{
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 7px 35px;
+    margin-left: 8px;
+    text-transform: uppercase;
+    font-size: 24px;
+    border-radius: 25px;
+    border:2px solid rgba(255, 255, 255, 0.89);
+    font-weight:bolder;
+    transition: .5s;
+}
+
+.slide-text-container a:hover{
+    color:#d60000;
+    background-color:white;
+}
+
+
+header .carousel-pizza{
+    position: absolute;
+    width: 40%;
+    top: 15%;
+    right: 7%;
+}
+
+
+/*Seção populares*/
+
+#populares{
+    padding:45px 0;
+    text-align:center;
+    background-color:rgb(236, 233, 233);
+}
+
+#populares h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: lighter;
+    color: #d60000;
+    font-size:3.5rem;
+}
+
+#populares i{
+    font-size: 35px;
+    margin-top: 15%;
+    transition:.3s;
+}
+
+#populares i:hover{
+    color:rgb(240, 84, 22);
+    cursor:pointer;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.fa-arrow-circle-left{
+    float:left;
+    margin-left:52px;
+}
+
+.fa-arrow-circle-right{
+    float:right;
+    margin-right:52px;
+}
+
+.populares-container{
+    width:80%;
+    max-width:1090px;
+    margin:35px auto 0;
+}
+
+.populares-item{
+    display: inline-block;
+    box-sizing: border-box;
+    line-height:27px;
+    width:190px;
+    padding: 10px 15px;
+    margin:10px;
+    border:1px solid gray;
+    border-radius:12px;
+    box-shadow: 3px 7px 3px gray;
+}
+
+.populares-pizza{
+    height: 150px;
+}
+
+.populares-para{
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.popupares-btn{
+    display:inline-block;
+    font-size: 18px;
+    color: white;
+    padding:5px 0;
+    width:100%;
+    margin-top: 15px;
+    text-decoration:none;
+    background-color:#d60000da;
+}
+
+/* Seção Cardápio */
+
+#cardapio{
+    background-color:#c72121;
+    padding:25px 45px 85px;
+}
+
+#cardapio h1{
+    color:white;
+}
+
+.cardapio-container{
+    width: 1100px;
+    max-width:90%;
+    margin: 35px auto 0;
+    text-align: center;
+}
+
+
+.cardapio-item{
+    text-align: center;
+    padding: 12px 8px 30px;
+    display: inline-block;
+    background-color:white;
+    width:250px;
+    margin:12px 10px;
+    border-radius:8px;
+    box-sizing: border-box;
+}
+
+.cardapio-item img{
+    padding-bottom:25px;
+    height:150px;
+}
+
+.cardapio-preco{
+    display: inline-block;
+    margin-top:9px;
+    padding: 4px 45px;
+    border:1px solid #f80101;
+    border-radius:5px;
+    color: #f80101;
+    text-decoration:none;
+}
+
+/* Seção App */
+
+#app{
+    padding: 10%;
+    background: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.795)), url("../img/app.jpg") no-repeat 0px 0px / 100% 100%;
+}
+
+#app h1{
+    font-size: 4rem;
+    color:white;
+    line-height: 65px;
+    margin-bottom:7px;
+}
+
+#app p{
+    margin-bottom: 24px;
+    font-size: 20px;
+    color:rgba(255, 255, 255, 0.753);
+}
+
+#app button{
+    font-family: 'Dancing Script', cursive;
+    padding: 12px 35px;
+    font-size: 29px;
+    border-radius:50px;
+}
+
+.fa-google-play, .fa-apple{
+    padding-right:10px;
+}
+
+.btn-App-play{
+    background-color: #d60000;
+    border:none;
+    color: white;
+}
+
+.btn-App-apple{
+    background-color: white;
+    border:none;
+    margin-left: 25px;
+    color:#d60000;
+}
+
+/* SEÇÃO INFORMAÇÃO */
+
+#informacao{
+    padding:72px 0;
+}
+
+#informacao h2{
+    font-weight: initial;
+    font-size: 19px;
+    color:rgb(88, 86, 86);
+}
+
+.informacao-container{
+    margin: 35px auto 0;
+    display: flex;
+    width:80%;
+}
+
+.item-1-informacao, .item-2-informacao{
+    margin: 0 15px;
+}
+
+#informacao span{
+    font-family: 'Dancing Script', cursive;
+    line-height:39px;
+    font-size: 28px;
+    color: #d60000e3;
+}
+
+/* SEÇÃO FOOTER */
+
+footer{
+    text-align: center;
+    padding:17px 0;
+    color:white;
+    background-color: #c72121;
+}
+
+
+
+@media (max-width:1026px){
+    
+    .slide-text-wrapper {
+     background:#c72121;
+     text-align:center; 
+    }
+
+    .slide-text-container h1{
+        width: initial;
+        font-size: 5.5rem;
+        line-height: 85px;
+    }
+
+    header .carousel-pizza {
+        display:none;
+    }
+
+    /* seção app */
+    #app{
+        text-align: center;
+    }
+
+    #app .btn-App-apple{
+        margin-top:20px;
+        margin-left:0px;
+    }
+}
+
