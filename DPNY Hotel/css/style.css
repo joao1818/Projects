@@ -36,7 +36,8 @@ body{
 
 .form-wrapper form{
     background-color: rgba(255, 255, 255, 0.884);
-    padding:12px;
+    padding: 5% 12px 12px;
+    border-radius: 5px;
 }
 
 .form-subtitle{
@@ -67,7 +68,13 @@ body{
     margin-top:21px;
 }
 
-.input-wrapper input[type="submit"]{
+.input-wrapper-submit{
+    display: block;
+    text-align: center;
+    margin: 3% 0;
+}
+
+.input-wrapper-submit input[type="submit"]{
     background-color: black;
     border:none;
     margin:0 auto;
@@ -76,9 +83,40 @@ body{
     color:white;
 }
 
+
+
 /*Rooms section */
 #Rooms{
     margin: 5% 0;
     text-align:center;
 }
+
+
+/*About us Section */
+
+.aboutTitle, .about-text{
+    height:100%;
+}
+
+.aboutTitle{
+    float:left;
+    width: 40%;
+}
+
+.aboutTitle h3{
+    position:relative;
+    top:50%;
+}
+
+.about-text{
+    float:right;
+    width:60%;
+}
+
+/* Prices section */
+#prices{
+    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.747)), url('../img/breach.jpg') no-repeat 0px 0px / 100% 100%;
+}
+
 
