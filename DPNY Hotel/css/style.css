@@ -27,6 +27,7 @@ body{
 
 .form-wrapper{
     max-width:600px;
+    text-align: center;
     position:absolute;
     top:20%;
     left:50%;
@@ -94,29 +95,39 @@ body{
 
 /*About us Section */
 
-.aboutTitle, .about-text{
-    height:100%;
+#aboutUs{
+    text-align: justify;
 }
 
-.aboutTitle{
-    float:left;
-    width: 40%;
+#aboutUs h3{
+    text-align:center;
 }
 
-.aboutTitle h3{
-    position:relative;
-    top:50%;
-}
-
-.about-text{
-    float:right;
-    width:60%;
+.aboutUs-active{
+    font-size: 2.5rem;
+    font-weight: bolder;
 }
 
 /* Prices section */
 #prices{
     height: 700px;
     background: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.747)), url('../img/breach.jpg') no-repeat 0px 0px / 100% 100%;
+}
+
+.prices-container{
+    margin:0 15%;
+    position:relative;
+    top: 60%;
+    left: 30%;
+    transform: translate(-43%, -55%);
+}
+
+.prices-container .card{
+    text-align: center;
+}
+
+.prices-container .card-img-top{
+    height:200px;
 }
 
 
