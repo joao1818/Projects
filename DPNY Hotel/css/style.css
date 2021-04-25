@@ -130,4 +130,13 @@ body{
     height:200px;
 }
 
+.prices-container .btn-prices{
+    border-radius:7px;
+    border:none;
+    padding:10px 30px;
+    color:white;
+    text-transform:uppercase;
+    font-family:'Noto Sans KR', sans-serif;
+    background-color:rgb(61, 61, 163);
+}
 

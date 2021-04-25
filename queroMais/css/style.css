@@ -27,6 +27,10 @@ body{
 
 /* SEÇÃO DE HEADER */
 
+header{
+    background-color:#d60000;
+}
+
 .logo{
     font-size: 27px;
     color: black;
@@ -42,9 +46,12 @@ color:white;
     font-family: 'Dancing Script', cursive;
 }
 
+nav .fa-bars{
+    visibility: hidden;
+}
+
 header nav{
-    padding:5px 60px;
-    background-color:#d60000;
+    margin:5px 5%;
 }
 
 header .menu-principal, .menu-principal li{
@@ -53,7 +60,6 @@ header .menu-principal, .menu-principal li{
 
 header .menu-principal{
     margin-top:17px;
-    margin-left: 45px;
     float:right;
 }
 
@@ -73,20 +79,18 @@ header a{
 }
 
 .header-carousel{
-    height:630px;
+    height:100%;
     overflow: hidden;
 }
 
-.slide-1{
-    height: 100%;
-}
+
 
 .slide-text-wrapper{
     background: url('../img/background.png') no-repeat 0px 0px / 100% 100%;
     display:inline-block;
     width: 100%;
     height:100%;
-    padding: 3%;
+    padding: 5%;
     box-sizing: border-box;
 }
 
@@ -372,6 +376,23 @@ footer{
     #app .btn-App-apple{
         margin-top:20px;
         margin-left:0px;
+    }
+}
+
+@media (max-width:700px){
+    nav .menu-principal{
+        display:none;
+    }
+
+    nav .fa-bars{
+        color:white;
+        border:.7px solid rgba(255, 255, 255, 0.849);
+        border-radius:4px;
+        margin-top:5px;
+        padding:7px;
+        visibility: visible;
+        float:right;;
+        font-size:28px;
     }
 }
 
