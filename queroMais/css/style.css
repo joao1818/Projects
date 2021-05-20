@@ -51,7 +51,7 @@ nav .fa-bars{
 }
 
 header nav{
-    margin:5px 5%;
+    padding:5px 5%;
 }
 
 header .menu-principal, .menu-principal li{
@@ -172,7 +172,7 @@ header .carousel-pizza{
 }
 
 .hidden{
-    visibility: hidden;
+    display:none;
 }
 
 .fa-arrow-circle-left{
@@ -233,6 +233,28 @@ header .carousel-pizza{
     color:white;
 }
 
+.cardapio-tipos{
+    margin-top:45px;
+}
+
+.cardapio-tipos ul{
+    position:relative;
+    left:30%;
+    color:white;
+}
+
+.cardapio-tipos li{
+    display:inline-block;
+    margin:0 15px;
+}
+
+.cardapio-tipos li a{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration:none;
+    font-size:21px;
+    color:white;
+}
+
 .cardapio-container{
     width: 1100px;
     max-width:90%;
@@ -240,11 +262,13 @@ header .carousel-pizza{
     text-align: center;
 }
 
+.cardapio-item-container{
+    display: inline-block;
+}
 
 .cardapio-item{
     text-align: center;
     padding: 12px 8px 30px;
-    display: inline-block;
     background-color:white;
     width:250px;
     margin:12px 10px;

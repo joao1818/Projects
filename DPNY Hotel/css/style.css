@@ -88,19 +88,38 @@ body{
 
 /*Rooms section */
 #Rooms{
-    margin: 5% 0;
+    margin: 5% 0 3%;
     text-align:center;
 }
 
+#Rooms .rooms-title{
+    color:rgb(139,0,0);
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+#Rooms .rooms-para{ 
+    color:gray;
+}
+
+#Rooms .card-title{
+    background-color: rgb(139,0,0);
+    color:white;
+}
 
 /*About us Section */
 
 #aboutUs{
     text-align: justify;
+    background-color:rgba(128, 128, 128, 0.027);
+    padding:70px 0 50px;
+    margin-bottom:40px;
+    box-sizing: border-box;
 }
 
 #aboutUs h3{
     text-align:center;
+    cursor:pointer;
 }
 
 .aboutUs-active{
@@ -111,7 +130,7 @@ body{
 /* Prices section */
 #prices{
     height: 700px;
-    background: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.747)), url('../img/breach.jpg') no-repeat 0px 0px / 100% 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.274)), url('../img/breach.jpg') no-repeat 0px 0px / 100% 100%;
 }
 
 .prices-container{
@@ -130,13 +149,51 @@ body{
     height:200px;
 }
 
-.prices-container .btn-prices{
-    border-radius:7px;
-    border:none;
-    padding:10px 30px;
+#prices .card-title{
+    padding:7px 0;
+    font-family: 'Noto Sans KR', sans-serif;
     color:white;
-    text-transform:uppercase;
-    font-family:'Noto Sans KR', sans-serif;
-    background-color:rgb(61, 61, 163);
+    background-color:black;
 }
 
+#prices .card-body{
+    padding-top:0;
+}
+
+#prices .card-text{
+    margin-bottom: .5rem;
+}
+
+/* Footer Section */
+
+footer{
+    padding:45px 0;
+}
+
+footer p{
+    margin:0;
+    color:gray;
+}
+
+footer .card i{
+    font-size: 30px;
+    padding:0 5px;
+    color:gray;
+}
+
+footer ul li{
+    display:inline-block;
+    text-align: center;
+    width:33%;
+}
+
+.footer-submenu li{
+    display: block;
+    width:100%;
+    text-align: center;
+}
+
+
+.card-body{
+    height: 148.8px;
+}
