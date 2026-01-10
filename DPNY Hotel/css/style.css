@@ -1,0 +1,310 @@
+
+
+body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Reset Tags */
+ul li{
+    list-style: none;
+}
+
+body a{
+    text-decoration: none;
+}
+
+p{
+    font-family: "Barlow", sans-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Reusable Classes */
+
+.container{
+    margin: 0 auto;
+    width:1200px;
+}
+
+
+.main-title{
+    font-size: 3.4rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #8b0000;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-nav{
+    height: 100vh;
+    font-family: 'Noto Sans KR', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.479)), url('../img/HeaderBc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-block-start: 1.5rem;
+    box-sizing: border-box;
+}
+.navbar-menu{
+    display: flex;
+}
+
+.nav-item{
+    margin-inline: 1rem;
+    text-transform: uppercase;
+}
+
+.form-wrapper{
+    max-width:600px;
+    text-align: center;
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%);
+
+}
+
+.form-wrapper form{
+    background-color: rgba(255, 255, 255, 0.884);
+    padding: 5% 12px 12px;
+    border-radius: 5px;
+}
+
+.form-subtitle{
+    font-size: 21px;
+    margin-bottom:0;
+    color:rgba(255, 255, 255, 0.815);
+    border-bottom: 1px solid white;
+}
+
+.form-title{
+    font-size: 6rem;
+    color:yellow;
+}
+
+.input-wrapper{
+    display:inline-block;
+}
+
+.input-wrapper h3{
+    font-size:17px;
+}
+
+.input-wrapper input {
+    max-width:130px;
+}
+
+.input-wrapper .dropdown{
+    margin-top:21px;
+}
+
+.input-wrapper-submit{
+    display: block;
+    text-align: center;
+    margin: 3% 0;
+}
+
+.input-wrapper-submit input[type="submit"]{
+    background-color: black;
+    border:none;
+    margin:0 auto;
+    padding: 5px 25px;
+    font-size:21px;
+    color:white;
+}
+
+
+
+/*Rooms section */
+#Rooms{
+    margin: 5% 0 3%;
+    text-align:center;
+}
+
+#Rooms p{
+    color: gray;
+}
+
+.rooms-para{
+    font-size: 25px;
+    margin-block: .8rem 2rem;
+}
+
+.rooms-card{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+}
+
+.rooms-card-img{
+    height: 247px;
+    width: 100%;
+}
+
+.rooms-card-body{
+    padding: 1rem 1rem;
+}
+
+.rooms-card-para{
+    font-size: 18px;
+    margin-block: 0 1rem;
+}
+.rooms-card-link{
+    background-color: rgb(139,0,0);
+    display: block;
+    color:white;
+    padding-block: .7rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*About us Section */
+
+#aboutUs{
+    text-align: justify;
+    padding:70px 0 50px;
+    margin-bottom:40px;
+}
+
+.about-info{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.about-info-titles{
+    align-content: center;
+}
+
+.about-info-text{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.601);
+}
+
+#aboutUs h3{
+    text-align:center;
+    cursor:pointer;
+}
+
+.aboutUs-active{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+/* Prices section */
+#prices{
+    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.274)), url('../img/breach.jpg') no-repeat 0px 0px / 100% 100%;
+}
+
+.prices-container{
+    height: 100%;
+    margin: 0 5%;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.prices-card{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.784);
+}
+
+.prices-card-img{
+    width: 100%;
+}
+.prices-card-para{
+    margin-bottom: .5rem;
+}
+
+.prices-card-btn{
+    border: none;
+    width: 100%;
+    background-color: none;
+    font-size: 19px;
+    margin-block-start: .5rem;
+    font-weight: bolder;
+    color: black;
+    padding-block: .4rem;
+    background-color: white;
+    margin-block: 1rem 0;
+}
+
+/* Footer Section */
+
+footer{
+    padding:45px 0;
+}
+
+footer p{
+    margin:0;
+    color:gray;
+}
+
+footer .card i{
+    font-size: 30px;
+    padding:0 5px;
+    color:gray;
+}
+
+footer ul li{
+    display:inline-block;
+    text-align: center;
+    width:33%;
+}
+
+.footer-submenu li{
+    display: block;
+    width:100%;
+    text-align: center;
+}
+
+
+.card-body{
+    height: 148.8px;
+}
+
+/*--------------------------------------------------------*/
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    gap:5vh;
+}
